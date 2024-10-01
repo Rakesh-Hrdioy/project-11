@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Added for better font rendering */
+
+}
+/* Navbar styling */
+.navbar {
+    background-color: rgb(67, 148, 205); /* Background color for the navbar */
+    padding: 1rem 2rem; /* Padding for spacing */
+}
+
+.navbar-brand {
+    font-family: 'Public Sans', sans-serif; /* Using the Google font for brand text */
+    font-size: 1.5rem; /* Size of the brand text */
+    color: white !important; /* Ensures the brand text is white */
+}
+
+.navbar-nav .nav-link {
+    color: white !important; /* Ensures all nav links are white */
+    font-size: 1.1rem; /* Adjusted font size */
+    padding: 0 1rem; /* Adds space between links */
+    transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(0, 123, 255) !important; /* Hover effect for nav links */
+}
+
+.navbar-toggler-icon {
+    color: white !important; /* Ensures the toggle icon color is white on mobile */
+}
+
+@media (max-width: 991px) {
+    .navbar-nav .nav-link {
+        padding: 0.5rem 0; /* Adjusts padding for smaller screens */
+    }
+}
+
+
+
+.global-btn {
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none; /* Added to remove default border */
+    cursor: pointer; /* Added for pointer cursor on hover */
+    font-size: 1rem; /* Adjusted font size */
+}
+
+.global-section {
+    padding: 3rem 0;
+}
+
+.global-heading {
+    font-size: 3rem; /* Adjusted font size for better readability */
+    text-align: center;
+}
+
+.global-heading-p {
+    color: rgb(34, 64, 64);
+    text-align: center;
+    margin-top: 0.5rem; /* Added margin for spacing */
+}
+.nav-menu{
+    background-color: aqua;
+    color: black;
+}
+
+.first-section {
+    background-image: url(assets/the\ boy.jpg);
+    background-repeat: no-repeat; /* Changed to no-repeat */
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10rem 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.first-section p {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.first-section h2 {
+    font-size: 5rem;
+    margin: 10px 0;
+}
+
+.about-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Added for center alignment */
+    margin: 0 auto; /* Center div in the container */
+    max-width: 1200px; /* Added max-width to control the width */
+}
+
+.about-img-container {
+    flex: 1; /* Added for flexible sizing */
+    margin-right: 2rem; /* Added spacing between image and text */
+}
+
+.about-img-container img {
+    width: 100%;
+    height: auto;
+    max-width: 500px; /* Added max-width for responsiveness */
+    border-radius: 10px; /* Optional: rounded corners for the image */
+}
+
+.about-sub-div {
+    flex: 1; /* Added for flexible sizing */
+}
+
+.about-sub-div h2 {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.about-sub-div p {
+    font-size: 1rem; /* Adjusted font size for readability */
+    line-height: 1.6 ;/* Added line-height for better readability */
+   
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-single-item{
+    padding: 50px;
+    text-align: center;
+}
+.custom-item-size{
+    font-size: 70px;
+}
+
+.work-single-image{
+    width: 350px;
+}
+
+.contact-heading{
+    font: 50px;
+    text-align: center;
+}
+
+form{
+    margin-left: 40rem;
+    margin-bottom: 5rem;
+
+}
+form input{
+    width: 600px;
+
+}
+form textarea{
+    width: 600px;
+}
+.submit-btn{
+    width: 200px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 4rem;
+}
+footer p{
+ padding-top: 10px;
+
+}
